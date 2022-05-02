@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Sample</title>
+</head>
+<body>
+    <header>
+          <h1>Form Sample</h1>
+          <nav>
+              <a href="index.html">Home</a>
+          </nav>
+    </header>
+    <main>
+        <form action="https://formspree.io/f/xknbzgnl" method="POST">
+             <label> Client name:
+                 <input type="text" name="client-name" placeholder="Client name" required>
+             </label>
+             <br>
+             <label> Client email:
+                <input type="email" name="client-email" placeholder="Client email" required>
+             </label>
+             <br>
+             <label>Gender:</label>
+             <label>
+                 <input type="radio" name="gender" value="male"> Male
+             </label>
+             <label>
+                <input type="radio" name="gender" value="female"> Female
+             </label>
+             <label>
+                <input type="radio" name="gender" value="other"> Other
+             </label>
+             <br>
+             <input type="submit">
+             <input type="reset">
+        </form>
+    </main>
+    
+</body>
+</html>
